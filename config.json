@@ -1,1 +1,20 @@
+{
+  "gridSizes": [4, 8, 10, 12],
+  "standardDimensions": {
+    "rectangle": { "width": 200, "height": 120 },
+    "textbox": { "width": 300, "height": 100 },
+    "image": { "width": 320, "height": 180 }
+  },
+  "branding": {
+    "primaryColor": "#004080",
+    "secondaryColor": "#FF9900",
+    "fontFamily": "Calibri",
+    "logoPlacement": "top-right"
+  },
+  "shortcuts": {
+    "alignLeft": "Ctrl+Shift+L",
+    "alignCenter": "Ctrl+Shift+C",
+    "alignRight": "Ctrl+Shift+R"
+  }
+}
 
