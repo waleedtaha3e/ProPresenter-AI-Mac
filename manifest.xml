@@ -1,1 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="TaskPaneApp"
+           xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+           xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+           Version="1.0.0.0"
+           ProviderName="YourCompany"
+           DefaultLocale="en-US"
+           DisplayName="EE Baseline Mac"
+           Description="Baseline Efficient Elements clone for Mac"
+           Id="6a1c1e0a-1f9b-4b1d-9d0b-b7f015a9c001">
+  <Hosts>
+    <Host Name="Presentation"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation Default="https://localhost:3000/taskpane.html"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" Version="1.0">
+    <Hosts>
+      <Host xsi:type="Presentation">
+        <Runtimes>
+          <Runtime resid="TaskPane.Url"/>
+        </Runtimes>
+        <ExtensionPoint xsi:type="PrimaryCommandSurface">
+          <CustomTab id="Tab.EEBaseline">
+            <Group id="Group.Align" label="Alignment">
+              <Control id="Btn.AlignLeft" type="Button" label="Align Left" />
+              <Control id="Btn.AlignCenter" type="Button" label="Align Center" />
+              <Control id="Btn.AlignRight" type="Button" label="Align Right" />
+            </Group>
+            <TaskPane id="TaskPane.Home" label="Settings & Library" />
+          </CustomTab>
+        </ExtensionPoint>
+      </Host>
+    </Hosts>
+    <Resources>
+      <bt:Urls>
+        <bt:Url id="TaskPane.Url" DefaultValue="https://localhost:3000/taskpane.html"/>
+      </bt:Urls>
+    </Resources>
+  </VersionOverrides>
+</OfficeApp>
 
