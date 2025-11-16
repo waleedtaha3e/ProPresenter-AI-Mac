@@ -9,9 +9,9 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="ProPresenter AI"/>
   <Description DefaultValue="Professional PowerPoint add-in with AI features - Hosted on GitHub"/>
-  <IconUrl DefaultValue="https://YOUR_USERNAME.github.io/ProPresenter-AI-Mac/icon-64.png"/>
+  <IconUrl DefaultValue="https://waleedtaha3e.github.io/ProPresenter-AI-Mac/icon-64.png"/>
   
-  <SupportUrl DefaultValue="https://github.com/YOUR_USERNAME/ProPresenter-AI-Mac/issues"/>
+  <SupportUrl DefaultValue="https://github.com/waleedtaha3e/ProPresenter-AI-Mac/issues"/>
   
   <Hosts>
     <Host Name="Presentation"/>
@@ -24,7 +24,7 @@
   </Requirements>
   
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://YOUR_USERNAME.github.io/ProPresenter-AI-Mac/"/>
+    <SourceLocation DefaultValue="https://waleedtaha3e.github.io/ProPresenter-AI-Mac/"/>
   </DefaultSettings>
   
   <Permissions>ReadWriteDocument</Permissions>
